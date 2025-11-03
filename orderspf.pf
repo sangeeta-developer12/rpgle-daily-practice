@@ -1,0 +1,5 @@
+                R ORDREC
+                  ORDID          5S 0
+                  CUSTID         8S 0
+                  ITEMNAME       8A
+                  QTY            9S 0

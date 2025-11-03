@@ -1,0 +1,15 @@
+     A*%%TS  SD  20250720  160631  SANGEETA    REL-V7R5M0  5770-WDS
+     A*%%EC
+     A                                      DSPSIZ(24 80 *DS3)
+     A          R DSPF01
+     A*%%TS  SD  20250720  160631  SANGEETA    REL-V7R5M0  5770-WDS
+     A                                  1 13'SAMPLE_DISPLAY_FILE'
+     A                                  2  5'STUDENT NAME '
+     A                                      DSPATR(UL)
+     A                                  2 27'STUDENT ROLL'
+     A                                      DSPATR(UL)
+     A                                  2 49'STUDENT MARKS'
+     A                                      DSPATR(UL)
+     A            STUDNAME      10A  I  4  6
+     A            STUDROLL       4A  O  4 28
+     A            STUDMARKS      3A  O  4 50

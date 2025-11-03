@@ -1,0 +1,16 @@
+
+     FSTUDENTPF IF   E           K DISK
+     D§ROLLNO          S              3S 0
+     D§NAME            S              8A
+     D§MARKS           S              5S 0
+     C                   EVAL      ROLLNO=101
+     C                   EVAL      NAME='SAN'
+     C                   EVAL      MARKS=88
+     C/EXEC SQL
+     C+ INSERT INTO STUDENTPF (ROLLNO, NAME, MARKS)
+     C+ VALUES(:ROLLNO, :NAME, :MARKS)
+     C/END-EXEC
+     C     §ROLLNO       DSPLY
+     C     §NAME         DSPLY
+     C     §MARKS        DSPLY
+     C                   EVAL       *INLR=*ON

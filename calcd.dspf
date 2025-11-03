@@ -1,0 +1,12 @@
+     A*%%TS  SD  20250722  092100  SANGEETA    REL-V7R5M0  5770-WDS
+     A*%%EC
+     A                                      DSPSIZ(24 80 *DS3)
+     A          R REC01
+     A*%%TS  SD  20250722  092100  SANGEETA    REL-V7R5M0  5770-WDS
+     A                                  1  2DATE
+     A                                      EDTCDE(Y)
+     A                                  1 23TIME
+     A                                  1 44USER
+     A                                  8 22'This is test screen'
+     A            NUMBER         3  0O 11 24
+     A            TEXT          10   O 12 24

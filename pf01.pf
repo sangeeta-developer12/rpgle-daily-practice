@@ -1,0 +1,5 @@
+                R R1
+                  EMPID          3S 0
+                  EMPNAME        8A
+                  EMPCITY        5A
+                K EMPID

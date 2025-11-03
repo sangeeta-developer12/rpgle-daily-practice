@@ -1,0 +1,16 @@
+     D num             S             10I 0
+     D fact            S             20I 0 inz(1)
+     D i               S             10I 0
+
+      /free
+         dsply 'Enter a number:' '' num;
+
+         for i = 1 to num;
+            fact = fact * i;
+         endfor;
+
+         dsply ('Factorial of ' + %char(num) + ' is ' + %char(fact));
+
+         *inlr = *on;
+         return;
+      /end-free
